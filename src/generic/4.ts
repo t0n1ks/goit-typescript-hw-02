@@ -6,7 +6,7 @@ interface ComponentProps {
   title: string;
 }
 
-class Component<T extends ComponentProps> {
+class Component<T> {
   constructor(public props: T) {}
 }
 
